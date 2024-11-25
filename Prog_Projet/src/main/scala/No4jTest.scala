@@ -7,7 +7,7 @@ object No4jTest {
     // Replace with the actual connection URI and credentials
     val url = "neo4j://localhost:7687"
     val username = "neo4j"
-    val password = "testtest"
+    val password = "password"
     val dbname = "neo4j"
 
     val spark = SparkSession.builder
